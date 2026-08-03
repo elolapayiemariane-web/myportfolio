@@ -534,6 +534,12 @@ a {
   outline: none;
   border-color: var(--bleu-accent);
 }
+.carte-certification {
+  align-items: flex-start;
+}
+.certification-contenu .liens-documents-projet {
+  margin-top: 10px;
+}
 
 /* ===========================================
    COMPÉTENCES
