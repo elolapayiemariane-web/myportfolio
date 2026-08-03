@@ -291,7 +291,7 @@ a {
 
 .carte-projet-portfolio {
   flex: 1 1 380px;
-  max-width: 420px;
+  max-width: 460px;
    background-color: var(--blanc);
   border: 1px solid var(--bordure);
   border-radius: 10px;
