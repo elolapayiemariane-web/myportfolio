@@ -281,15 +281,18 @@ a {
 }
 
 .grille-projets-portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   max-width: 1350px;
   margin: 0 auto;
 }
 
 .carte-projet-portfolio {
-  background-color: var(--blanc);
+  flex: 1 1 380px;
+  max-width: 420px;
+   background-color: var(--blanc);
   border: 1px solid var(--bordure);
   border-radius: 10px;
   overflow: hidden;
