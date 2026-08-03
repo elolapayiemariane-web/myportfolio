@@ -439,6 +439,102 @@ a {
 .icone-document {
   font-size: 0.8rem;
 }
+
+/* ===========================================
+   CERTIFICATIONS
+   =========================================== */
+.section-certifications {
+  padding: 80px 60px;
+  background-color: var(--blanc);
+}
+
+.grille-certifications {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.carte-certification {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background-color: var(--fond);
+  border: 1px solid var(--bordure);
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.carte-certification:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(26, 20, 16, 0.1);
+}
+
+.icone-certification {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blanc);
+  border-radius: 50%;
+  border: 1px solid var(--bordure);
+}
+
+.certification-contenu h3 {
+  font-size: 1rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.certification-organisme {
+  font-size: 0.85rem;
+  color: var(--bleu-accent);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.certification-date {
+  font-size: 0.8rem;
+  color: var(--texte-gris);
+}
+.champ-groupe {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.champ-groupe label {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: var(--texte-gris);
+  margin-bottom: 6px;
+}
+
+.champ-groupe input,
+.champ-groupe textarea,
+.champ-groupe select {
+  padding: 12px 14px;
+  border: 1px solid var(--bordure);
+  border-radius: 6px;
+  background-color: var(--blanc);
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--navy);
+}
+
+.champ-groupe input:focus,
+.champ-groupe textarea:focus,
+.champ-groupe select:focus {
+  outline: none;
+  border-color: var(--bleu-accent);
+}
+
 /* ===========================================
    COMPÉTENCES
    =========================================== */
