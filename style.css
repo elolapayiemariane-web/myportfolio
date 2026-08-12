@@ -815,6 +815,8 @@ a {
 
   .apropos {
   padding: 48px 24px;
+  flex-direction: column;
+  text-align: center;
 }
 
   .section.contact {
