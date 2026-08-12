@@ -542,82 +542,6 @@ a {
 }
 
 /* ===========================================
-   COMPÉTENCES
-   =========================================== */
-.section-competences {
-  padding: 80px 60px;
-  background-color: var(--navy);
-}
-
-.bloc-competences {
-  display: flex;
-  gap: 60px;
-  max-width: 1100px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.barres-competences {
-  flex: 1;
-  min-width: 300px;
-}
-
-.barre-item {
-  margin-bottom: 24px;
-}
-
-.barre-label {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  color: var(--blanc);
-  margin-bottom: 8px;
-}
-
-.barre-fond {
-  background-color: var(--fond);
-  border-radius: 20px;
-  height: 8px;
-  overflow: hidden;
-}
-
-.barre-remplissage {
-  background-color: var(--bleu-accent);
-  height: 100%;
-  border-radius: 20px;
-  transition: width 1s ease;
-}
-
-.grille-outils {
-  flex: 1;
-  min-width: 300px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.carte-outil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  padding: 20px 10px;
-  background-color: var(--fond);
-  border-radius: 10px;
-  font-size: 0.8rem;
-  color: var(--texte-gris);
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.carte-outil:hover {
-  background-color: var(--bordure);
-  transform: translateY(-3px);
-}
-
-.icone-outil {
-  font-size: 1.6rem;
-}
-/* ===========================================
    FOOTER
    =========================================== */
 .footer-portfolio {
@@ -889,13 +813,8 @@ a {
     max-width: 100%;
   }
 
-  .apropos,
-  .section-competences {
+  .apropos {
   padding: 48px 24px;
-}
-
-.bloc-competences {
-  flex-direction: column;
 }
 
   .section.contact {
